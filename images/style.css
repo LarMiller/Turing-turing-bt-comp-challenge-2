@@ -1,0 +1,59 @@
+* {
+  margin-top: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #43baba;
+  height: 6.5rem;
+
+}
+
+img { 
+float: right;
+display: inline;
+
+}
+
+/*.user-profile {
+  float: right;
+  vertical-align: text-top;
+
+
+}*/
+
+nav {
+
+}
+
+li {
+  display: inline;
+
+}
+
+.nav-selected{
+
+}
+
+
+
+.wrapper {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
