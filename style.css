@@ -1,8 +1,15 @@
-
+* {
+  margin-top: 0;
+  padding: 0;
+}
 
 header {
-  background-color: #43baba;
+  background-color: #33a3df;
   height: 6.5rem;
+}
+
+body {
+background-color: #EFEFEF;
 }
 
 #header-box {
@@ -20,42 +27,46 @@ header {
 }
 
 img { 
-float: right;
-display: inline;
+  display: inline;
 
 }
 
-.user-profile {
+/*.user-profile {
   float: right;
   vertical-align: text-top;
-}
+}*/
 
 .user-profile {
+  display: inline;
   text-align: right;
   padding-top: .5rem;
-  padding-right: 3.5rem;
+  padding-right: 1.5rem;
 }
 
 .drop-down-icon {
-display: inline;
+  padding-bottom: 0;
+  display: inline;
 }
 
+ul {
+  padding-top: 3rem;
+
+}
 
 li {
   display: inline-block;
   padding-top: .65rem;
-  padding-left: .65rem;   
+  padding-left: .65rem;  
+  color: white; 
 
 }
 
-.wrapper {
-  border-color: black;
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 
-    "a b c d"
-    "e f g h";
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  object-position: center;
+  padding-left: 3rem;  
+  margin-right: 0;
 }
 
 #icon {
@@ -74,54 +85,57 @@ li {
 
 .box {
   border: 1px solid;
-  background-color: #C8D6D6;
+  background-color: white;
   display: grid;
-  height: 300px;
+  width: 250px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  background-position: top;
+
+}
+
+.top-half {
+  background-image: url(http://14354-presscdn-0-17.pagely.netdna-cdn.com/wp-content/uploads/2017/06/woman-light-and-free.png);
+  height: 200px;
+  width: 100%;
+}
+
+.avg-temp-label {
+  color: white;
+  font-size: 15px;
+  float: right;
+  margin: 0;
+  padding-top:  1rem;
+  padding-right: 1rem;
+}
+
+.avg-temp {
+  color: white;
+  font-size: 30px;
+  position: absolute right;
+  float: right;
+  margin: 0;
+  padding-top: 30px;
+  margin-right: -60px;
 }
 
 .gps-icon {
-float: left;
+  float: left;
+  object-position: top;
+  padding: 1rem;
 }
 
-/*.distance {
-  text-overflow: hidden;*/
-  /*box-sizing: border-box;
+.distance {
+  object-position: center;
+  text-overflow: hidden;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: left;
+  width: 188px; 
+  border: 2px solid lightgrey;
+  padding: 2px;
+  margin-left: 3rem;
 }
-*/
-.a {
-  grid-area: a;
-}
-
-.b {
-  grid-area: b;
-}
-
-.c {
-  grid-area: c;
-}
-
-.d {
-  grid-area: d;
-}
-
-.e {
-  grid-area: e;
-}
-
-.f {
-  grid-area: f;
-}
-
-.g {
-  grid-area: g;
-}
-
-.h {
-  grid-area: f;
-}
-
-
-
 
 
 
