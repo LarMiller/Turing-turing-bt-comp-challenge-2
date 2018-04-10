@@ -24,6 +24,7 @@ header {
   justify-content: center;
   text-align: right;
   vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
  }
 
 .drop-down-icon {
@@ -66,7 +67,6 @@ li {
   padding-top: .65rem;
   padding-right: .6rem;  
   color: lightgrey; 
-
 }
 
 h6{
@@ -77,8 +77,9 @@ h6{
 #wrapper {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1400px;
   justify-content: space-evenly;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 #icon {
@@ -285,4 +286,10 @@ h6{
    }
 }
 
+
+@media screen and (max-width: 1600px) {
+   article {
+     width: 22%;
+   }
+}
 
