@@ -1,157 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>And Away</title>
+  <title>Basement Departures</title>
   <link rel="icon" type="image/png" href="images/black-plane.png"/>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Muli|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-      <div id="header-box">
-        <img src= "images/user.png" width= "20" height= "20" class="login-icon"/>
-    <p class="user-profile">Ms. Miller</p>
-    <img src="images/drop-down-arrow.svg" height="15" width="15" class="drop-down-icon"/>
-  </div>
+    <div id="header-box">
+      <img src= "images/user.png" width= "20" height= "20" class="login-icon"/>
+        <p class="user-profile">Admin Username &#9661;</p>
+    </div>
+    <div class="main-logo-container">
+        <i class="fas fa-globe main-icon" height="20" width="20"></i>
+   </div>     
     <nav id="menu">
       <ul>
-        <li>
-        <li><img src="images/flight.svg" alt="Plane inflight" id="icon" width="20" height="20"/>ROUTES</li>
+        <li class="selected-nav-option"><img src="images/flight.svg" alt="Plane inflight" class="plane-circling-icon" 
+          id="icon" width="20" height="20"/>ROUTES</li>
         <li><img src="images/towel.svg" alt="Towel Icon" id="icon" width="20" height="20"/>AMENITIES</li>
         <li><img src="images/video-camera.svg" alt="Video Camera" id="icon" width="20" height="20"/>ENTERTAINMENT</li>
       </ul>
     </nav>
   </header>
   <section>
-    <p class="nav-selected">Destinations</p>
+    <p class="nav-selected">Routes</p>
   </section>
   <div id="wrapper">
     <article class="box a">
-      <div class="top-half">
+      <div class="top-half cottesloe">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
       </div>
-      <h3>Cottesloe Beach</h3>
-      <p>31.9939° S, 115.7510° E</p>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+      <div class="bottom-half">
+        <h3 class="destination-name cottesloe">Cottesloe Beach</h3>
+        <p class="coordinates">31.9939° S, 115.7510° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">01</p>
+      </div>
     </article>
     <article class="box b">
-      <div class="top-half">
+      <div class="top-half exmouth">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
       </div>  
-      <h3>Exmouth</h3>
-      <h4>21.9445° S, 114.1313° E</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+      <div class="bottom-half">
+        <h3 class="destination-name">Exmouth</h3>
+        <p class="coordinates">21.9445° S, 114.1313° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">02</p>
+       </div> 
     </article>
     <article class="box c">
-      <div class="top-half">
+      <div class="top-half rottnest">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
       </div> 
-      <h3>Rottnest Island</h3>
-      <h4>32.0062° S, 115.5123° E</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+      <div class="bottom-half">
+        <h3 class="destination-name">Rottnest Island</h3>
+        <p class="coordinates">32.0062° S, 115.5123° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">03</p>
+       </div> 
     </article>
     <article class="box d">
-      <div class="top-half">
+      <div class="top-half margaret">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
       </div>  
-      <h3>Margaret River</h3>
-      <h4>33.9550° S, 115.0750° E</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+      <div class="bottom-half">
+        <h3 class="destination-name">Margaret River</h3>
+        <p class="coordinates">33.9550° S, 115.0750° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">04</p>
+       </div> 
     </article>
     <article class="box e">
-      <div class="top-half">
+      <div class="top-half waiheke">
       <img src="images/plane.svg" class="gps-icon" height="50" width="50">
       <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
      </div> 
-      <h3>Waiheke Island</h3>
-      <h4>36.8019° S, 175.1080° E</h4>
-      <p class="distance"><10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+     <div class="bottom-half">
+        <h3 class="destination-name">Waiheke Island</h3>
+        <p class="coordinates">36.8019° S, 175.1080° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">05</p>
+       </div> 
     </article>
     <article class="box f">
-      <div class="top-half">
+      <div class="top-half gili">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
-      </div>    
-      <h3>Gili Meno</h3>
-      <h4>8.3470° S, 116.0562° E</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
+      </div>  
+      <div class="bottom-half">  
+        <h3 class="destination-name">Gili Meno</h3>
+        <p class="coordinates">8.3470° S, 116.0562° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">06</p>
+       </div> 
     </article>
     <article class="box g">
-      <div class="top-half">
+      <div class="top-half nacula">
         <img src="images/plane.svg" class="gps-icon" height="50" width="50">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
        </div> 
-      <h3>Nacula Island</h3>
-      <h4>16.8785° S, 177.4257° E</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+       <div class="bottom-half">
+        <h3 class="destination-name">Nacula Island</h3>
+        <p class="coordinates">16.8785° S, 177.4257° E</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">07</p>
+       </div> 
     </article>
     <article class="box h">
-      <div class="top-half">
+      <div class="top-half kailua">
         <img src="images/plane.svg" class="gps-icon" height="50" width="80">
         <p class="avg-temp-label">AVG.TEMP</p>
-        <p class="avg-temp">100</p>
-      </div>  
-      <h3>Kailua Beach</h3>
-      <h4>21.4054° N, 157.7389° W</h4>
-      <p class="distance">10,000 miles</p>
-      <h5>Luggage</h5>
-      <h6>Carry on only</h6>
-      <h7>Tourism Ranking</h7>
-      <p class="difficulty-ranking">5</p>
-      <h8>Temp 98F</h8>
-      <p class="temperature">80</p>
+        <p class="avg-temp">100<span>&#176;</span></p>
+      </div> 
+      <div class="bottom-half"> 
+        <h3 class="destination-name">Kailua Beach</h3>
+        <p class="coordinates">21.4054° N, 157.7389° W</p>
+        <p class="distance">Actual Miles to Turing: 10,000</p>
+        <h5 class="luggage-restrictions">LUGGAGE</h5>
+        <h6>Carry on only</h6>
+        <p class="should-you-go">SHOULD I GO?</p>
+        <p class="difficulty-ranking">08</p>
+       </div> 
     </article>
   </div>
 </body>
