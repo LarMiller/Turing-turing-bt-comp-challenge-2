@@ -11,10 +11,10 @@ background-color: lightgrey;
 
 header {
   background-color: #36454f;
-  position: relative;
   height: 6.5rem;
   margin: 0;
   padding: 0;
+  position: relative;
   width: 100%;
 }
 
@@ -41,20 +41,19 @@ header {
 }
 
 .main-logo-container{
-  position: absolute;
   bottom: 0;
-  right: 0;
-  padding-right: 4rem;
   margin-bottom: .5rem;
+  padding-right: 4rem;
+  position: absolute;
+  right: 0;
 }
 
 .main-icon{
   border-radius: 100%;
-  position: relative;
   color: #FFFFFF;
   display: inline-block; 
   font-size: 3rem; 
- /* height: 1rem;*/
+  position: relative;
 }
 
 ul {
